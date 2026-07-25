@@ -18,6 +18,14 @@ links.querySelectorAll("a").forEach((a) => {
   });
 });
 
+// ------- back to top (scroll to the real top, not the sticky nav) -------
+document.querySelectorAll('a[href="#top"]').forEach((a) => {
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+
 // ------- theme toggle (persists choice) -------
 const themeBtn = document.querySelector(".theme-toggle");
 const root = document.documentElement;
