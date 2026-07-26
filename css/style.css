@@ -19,8 +19,8 @@
 
   --maxw: 1040px;
   --radius: 14px;
-  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Crimson Text", Georgia, "Times New Roman", serif;
+  --font-serif: "Crimson Text", Georgia, "Times New Roman", serif;
 }
 
 :root[data-theme="dark"] {
@@ -60,7 +60,7 @@ body {
   margin: 0;
   color: var(--text);
   font-family: var(--font-sans);
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   /* full-bleed fixed background; the image (assets/good1.jpg … good10.jpg) is chosen
@@ -75,7 +75,7 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-h1, h2, h3 { font-family: var(--font-serif); font-weight: 600; line-height: 1.2; }
+h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.2; }
 
 em { color: var(--muted); font-style: italic; }
 
@@ -274,11 +274,11 @@ main {
 
 /* ---------- publications (minimal text list) ---------- */
 .pub-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 16px; }
-.pub__title { font-size: 1.02rem; margin: 0 0 1px; font-weight: 600; line-height: 1.35; }
-.pub__authors { margin: 0; font-size: .92rem; }
-.pub__venue { margin: 0; color: var(--muted); font-size: .9rem; }
+.pub__title { font-size: 1.15rem; margin: 0 0 1px; font-weight: 600; line-height: 1.35; }
+.pub__authors { margin: 0; font-size: 1.02rem; }
+.pub__venue { margin: 0; color: var(--muted); font-size: 1rem; }
 .pub__venue em { font-style: italic; }
-.pub__links { margin-top: 1px; font-size: .88rem; }
+.pub__links { margin-top: 1px; font-size: .98rem; }
 .pub__links a { font-weight: 500; }
 .pub__links .sep { color: var(--border); margin: 0 8px; }
 
@@ -295,13 +295,13 @@ main {
 .teach__term {
   font-weight: 600;
   color: var(--accent);
-  font-size: .9rem;
+  font-size: 1rem;
   padding-top: 1px;
 }
-.teach__body h3 { margin: 0 0 2px; font-size: 1rem; }
+.teach__body h3 { margin: 0 0 2px; font-size: 1.15rem; }
 .teach__body h3 a { color: var(--text); text-decoration: none; }
 .teach__body h3 a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
-.teach__body p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.55; }
+.teach__body p { margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.55; }
 
 /* ---------- footer ---------- */
 .footer {
