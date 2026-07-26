@@ -4,18 +4,18 @@
    ============================================================ */
 
 :root {
-  /* Warm light palette */
-  --bg:        #fbf7f1;
-  --surface:   #fffdfa;
-  --text:      #2c2723;
-  --muted:     #6f665d;
-  --border:    #ece3d7;
-  --accent:    #c2683f;   /* terracotta */
-  --accent-2:  #d99a5b;   /* warm amber  */
-  --accent-soft: #f4e6da;
-  --shadow:    0 1px 2px rgba(80, 55, 35, .04), 0 8px 24px rgba(80, 55, 35, .06);
+  /* Blue light palette (from #091540 #7692ff #abd2fa #3d518c #1b2cc1) */
+  --bg:        #f3f6ff;
+  --surface:   #ffffff;
+  --text:      #091540;   /* deep navy   */
+  --muted:     #64748b;   /* neutral gray (navbar + secondary text) */
+  --border:    #d5e2f7;
+  --accent:    #2f4bc4;   /* blue (darker) */
+  --accent-2:  #5a72e6;   /* deeper periwinkle */
+  --accent-soft: #dfe8ff;
+  --shadow:    0 1px 2px rgba(9, 21, 64, .05), 0 8px 24px rgba(9, 21, 64, .08);
   /* overlay laid over the background image to keep text readable */
-  --bg-overlay: rgba(222, 222, 222, .62);
+  --bg-overlay: rgba(243, 246, 255, .62);
 
   --maxw: 1040px;
   --radius: 14px;
@@ -29,8 +29,8 @@
   --text:      #ece5db;
   --muted:     #a99e91;
   --border:    #362f28;
-  --accent:    #e0895f;
-  --accent-2:  #e8b06f;
+  --accent:    #9fb3ff;
+  --accent-2:  #c9e2ff;
   --accent-soft: #2c241d;
   --shadow:    0 1px 2px rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.35);
   --bg-overlay: rgba(26, 23, 20, .90);
@@ -43,8 +43,8 @@
     --text:      #ece5db;
     --muted:     #a99e91;
     --border:    #362f28;
-    --accent:    #e0895f;
-    --accent-2:  #e8b06f;
+    --accent:    #9fb3ff;
+    --accent-2:  #c9e2ff;
     --accent-soft: #2c241d;
     --shadow:    0 1px 2px rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.35);
     --bg-overlay: rgba(26, 23, 20, .78);
@@ -165,7 +165,7 @@ main {
   backdrop-filter: saturate(120%) blur(8px);
   border: 1px solid var(--border);
   border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(40, 25, 15, .18);
+  box-shadow: 0 10px 40px rgba(9, 21, 64, .18);
 }
 
 .section { padding: 40px 0 0; }
