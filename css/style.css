@@ -16,7 +16,7 @@
   /* overlay laid over the background image to keep text readable */
   --bg-overlay: rgba(243, 246, 255, .62);
 
-  --maxw: 1040px;
+  --maxw: 940px;
   --radius: 14px;
   --font-sans: "Crimson Text", Georgia, "Times New Roman", serif;
   --font-serif: "Crimson Text", Georgia, "Times New Roman", serif;
